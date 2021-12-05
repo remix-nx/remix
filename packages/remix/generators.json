@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "name": "remix",
+  "version": "0.0.1",
+  "generators": {
+    "remix": {
+      "factory": "./src/generators/remix/generator",
+      "schema": "./src/generators/remix/schema.json",
+      "description": "remix generator"
+    }
+  }
+}
